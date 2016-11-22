@@ -1,6 +1,5 @@
 body {
-	background: url(http://imgur.com/odksSeC);
-	#slogan
+	background: url(../images/titan_beach.JPG);
 	background-size: cover;
 	color: #000000;
 	text-align: center;
@@ -18,3 +17,4 @@ p {
 	text-transform: lowercase;
 	color: black;
 }
+#slogan {color: red;}
