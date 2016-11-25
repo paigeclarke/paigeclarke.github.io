@@ -1,20 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo|Libre+Franklin');
+
+
 body {
-	background: url(../images/titan_beach.JPG);
-	background-size: cover;
+	background-color: #87CEEB;
 	color: #000000;
-	text-align: center;
-	font-family: georgia;
+	text-align: left;
+	font-family: 'Arvo', serif;
+	line-height: 1.5em;
+	margin: 1em;
 }
 
 h1 {
+	font-size: 40px;
 	text-transform: uppercase;
 	color: (0,0,126);
+	font-family: 'Arvo', serif;
+	text-align: center;
+
+}
+h2 {
+	font-size: 30px;
+	font-family: 'Libre Franklin', sans-serif;
+	color: black;
+	text-align: center;
+
+}
+h3 {
+	font-size: 24px;
+	font-family: 'Libre Franklin', sans-serif;
+	color: black;
+	text-align: left;
+	display: block;
+	max-width: 900px;
+	padding-top: 50px;
+	padding-right: 200px;
+	padding-bottom:50px;
+	padding-left: 200px;
+
+}
+h4 {
+	font-size: 24px;
+	font-family: 'Arvo', serif;
+	font-weight: bold;
 
 }
 
 p {
-	font-size: 36px;
+	font-size: 16px;
 	text-transform: lowercase;
+	text-align: left;
 	color: black;
+	font-family: 'Libre Franklin', sans-serif;
+	display: block;
+	max-width: 400px;
+
 }
-#slogan {color: red;}
+
+.columns {
+	float: left;
+	padding: 0 1em;
+	width: 33.33%;
+}
+.clearfix:after {
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+#slogan {color: black;}
+
