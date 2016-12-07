@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Arvo|Libre+Franklin');
+
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Open+Sans');
 
 
 body {
-	background-color: #87CEEB;
+	background-color: #99E1D9;
 	color: #000000;
 	text-align: left;
-	font-family: 'Arvo', serif;
+	font-family: 'Open Sans', sans-serif;
 	line-height: 1.5em;
 	margin: 1em;
 }
@@ -13,22 +14,22 @@ body {
 h1 {
 	font-size: 40px;
 	text-transform: uppercase;
-	color: (0,0,126);
-	font-family: 'Arvo', serif;
+	color: #32292F;
+	font-family: 'Fredoka One', cursive;
 	text-align: center;
 
 }
 h2 {
 	font-size: 30px;
-	font-family: 'Libre Franklin', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	color: black;
 	text-align: center;
 
 }
 h3 {
 	font-size: 24px;
-	font-family: 'Libre Franklin', sans-serif;
-	color: black;
+	font-family: 'Open Sans', sans-serif;
+	color: #32292F;
 	text-align: left;
 	display: block;
 	max-width: 900px;
@@ -40,7 +41,7 @@ h3 {
 }
 h4 {
 	font-size: 24px;
-	font-family: 'Arvo', serif;
+	font-family: 'Fredoka One', cursive;
 	font-weight: bold;
 
 }
@@ -50,7 +51,7 @@ p {
 	text-transform: lowercase;
 	text-align: left;
 	color: black;
-	font-family: 'Libre Franklin', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	display: block;
 	max-width: 400px;
 
@@ -59,7 +60,7 @@ p {
 .columns {
 	float: left;
 	padding: 0 1em;
-	width: 33.33%;
+	width: 30%;
 }
 .clearfix:after {
 	content: ".";
@@ -67,7 +68,11 @@ p {
 	display: block;
 	height: 0;
 	clear: both;
+	padding: 0, 2em, 0 2em; ;
 }
 
-#slogan {color: black;}
+.blogarticle {
+}
+
+#slogan {color: #32292F;}
 
