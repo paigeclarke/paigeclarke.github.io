@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Open+Sans');
+* { margin:0; padding:0; box-sizing:border-box;}
+
+body {
+	background-color: #99E1D9;
+	color: #000000;
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.5;
+}
+
+h1 {
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #32292F;
+	font-family: 'Fredoka One', cursive;
+	text-align: center;
+
+}
+h2 {
+	font-size: 24px;
+	color: #32292F;
+	padding-top: 50px;
+	padding-bottom:50px;
+
+}
+h3 {
+	font-size: 24px;
+	font-family: 'Fredoka One', cursive;
+	font-weight: bold;
+
+}
+.columns {
+	float: left;
+	padding: 0 1em;
+	width: 33.33%;
+	min-height: 44em;
+}
+.columns img {
+	width:100%;
+}
+.clearfix:after {
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+	padding: 0, 2em, 0 2em; ;
+}
+
+.blogarticle {
+}
+
+#slogan {color: #32292F;}
+
+#blogArticles {
+    max-width: 1200px;
+    margin: auto;
+}
+
+#rawLifestyle {
+    max-width: 600px;
+    margin: auto;
+}
