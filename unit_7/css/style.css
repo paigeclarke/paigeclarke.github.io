@@ -24,24 +24,29 @@ h1 {
 	font-size: 40px;
 	text-transform: uppercase;
 	color: #32292F;
-	font-family: 'Fredoka One', cursive;
+	font-family: 'Open Sans', sans-serif;
 	text-align: center;
 
 }
 h2 {
-	font-size: 24px;
+	font-size: 30px;
 	color: #32292F;
-	padding-top: 50px;
-	padding-bottom:50px;
+	padding-top: 20px;
+	padding-bottom:20px;
 	text-align: center;
 	display: block;
 
 }
 h3 {
 	font-size: 24px;
-	font-family: 'Fredoka One', cursive;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 
+}
+footer {
+	margin: 3em;
+	text-align: center;
+	font-weight: 800px;
 }
 .columns {
 	float: left;
@@ -53,7 +58,7 @@ h3 {
 	width:100%;
 }
 .clearfix:after {
-	content: ".";
+	content: " ";
 	visibility: hidden;
 	display: block;
 	height: 0;
@@ -64,12 +69,19 @@ h3 {
 .influencers {
 	float: left;
 	padding: 0 1em;
-	width: 50%;
+	width: 33.33%;
 }
 
+#left img {
+	width: 100%;
+}
+
+}
 #mainpage {
 	background-color: grey;
 	width: auto;
+	height: 8em;
+	padding-top: 2em;
 
 }
 #slogan {color: #32292F;}
@@ -80,6 +92,40 @@ h3 {
 }
 
 #rawLifestyle {
-    max-width: 600px;
+    max-width: 1200px;
     margin: auto;
+    padding: 4em;
+}
+
+#splash {
+	background-color: #F0FFFF;
+}
+
+#two_column {
+	background-color: #FDF5E6;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#credibility {
+	background-color: white;
+	border: 3px black solid;
+	padding: 20px;
+	margin: 3em;
+}
+
+#left {
+	background-color: #D3D3D3;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#right {
+	background-color: #D3D3D3;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
 }
