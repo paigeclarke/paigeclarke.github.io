@@ -2,27 +2,41 @@
 * { margin:0; padding:0; box-sizing:border-box;}
 
 body {
-	background-color: #99E1D9;
-	color: #000000;
+	background-image: url(../images/titan_background.jpg);
+	background-size: cover;
+	width: 100%;
 	text-align: left;
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.5;
 }
 
 nav {
-	font-size: 4em;
+	font-size: 1.5em;
 	float: right;
+	background: black;
+	color: white;
+	width: cover;
+	margin: 0;
+
 }
+
 nav a {
 	text-decoration: none;
-	color: #000000;
-	margin: 1.8em;
+	color: white;
+	margin: 1em;
 	display: inline-block;
+	padding: 0 3em;
+}
+
+ul {
+	list-style-type: none;
+	text align: center;
+	padding: 0 3em;
 }
 
 h1 {
-	font-size: 40px;
-	text-transform: uppercase;
+	font-size: 60px;
+	text-transform: capitalize;
 	color: #32292F;
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
@@ -78,28 +92,28 @@ footer {
 
 }
 #mainpage {
-	background-color: grey;
+	background: grey;
 	width: auto;
-	height: 8em;
-	padding-top: 2em;
+	height: 4em;
+	padding-top: 4em;
 
 }
 #slogan {color: #32292F;}
 
 #blogArticles {
-    max-width: 1200px;
-    margin: auto;
+    max-width: autopx;
+    margin: 2em;
+    background: #48D1CC;
+    padding: 2em;
 }
 
 #rawLifestyle {
-    max-width: 1200px;
-    margin: auto;
+    max-width: auto;
+    margin: 8em;
     padding: 4em;
+    background: #778899;
 }
 
-#splash {
-	background-color: #F0FFFF;
-}
 
 #two_column {
 	background-color: #FDF5E6;
