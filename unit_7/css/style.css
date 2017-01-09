@@ -111,7 +111,10 @@ footer {
     max-width: auto;
     margin: 8em;
     padding: 4em;
-    background: #778899;
+    background: #FDF5E6;
+    display: block;
+    font-style: italic;
+    
 }
 
 
