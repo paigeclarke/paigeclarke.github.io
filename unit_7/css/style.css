@@ -6,7 +6,7 @@ body {
 	text-align: left;
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.5;
-	background-color: #A5A5A5;
+	background-color: #9099A2;
 }
 
 nav {
@@ -51,7 +51,7 @@ h1 {
 }
 h2 {
 	font-size: 30px;
-	color: #32292F;
+	color: #4717F6;
 	padding-top: 10px;
 	padding-bottom:10px;
 	text-align: center;
@@ -90,7 +90,12 @@ footer {
 .influencers {
 	float: left;
 	padding: 0 1em;
-	width: 33.33%;
+	width: 50%;
+
+}
+
+.influencers img {
+	width:100%;
 }
 
 #left img {
@@ -108,8 +113,8 @@ footer {
 
 #blogArticles {
     max-width: autopx;
-    background: #57BC90;
-    color: white;
+    background: #E7DfDD;
+    color: black;
     padding: 2em;
     width: 100%;
 }
@@ -117,8 +122,8 @@ footer {
 #rawLifestyle {
     max-width: auto;
     margin: 8em;
-    padding: 4em;
-    background: #B4DBC0;
+    padding: 2em;
+    background: #9099A2;
     display: block;
     font-style: italic;
     
@@ -133,7 +138,7 @@ footer {
 }
 
 #credibility {
-	background-color: #57BC90;
+	background-color: #9099A2;
 	border: 3px black solid;
 	padding: 20px;
 	width: 100%;
@@ -158,5 +163,5 @@ footer {
 
 #contact_information {
 	padding: 2em;
-	
+
 }
