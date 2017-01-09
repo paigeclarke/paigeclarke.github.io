@@ -2,20 +2,19 @@
 * { margin:0; padding:0; box-sizing:border-box;}
 
 body {
-	background-image: url(../images/titan_background.jpg);
-	background-size: cover;
 	width: 100%;
 	text-align: left;
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.5;
+	background-color: #A5A5A5;
 }
 
 nav {
-	font-size: 1.5em;
+	font-size: 1em;
 	float: right;
 	background: black;
 	color: white;
-	width: cover;
+	width: 100%;
 	margin: 0;
 
 }
@@ -25,28 +24,36 @@ nav a {
 	color: white;
 	margin: 1em;
 	display: inline-block;
-	padding: 0 3em;
+	padding-right: 0;
+	padding-left: 10em;
 }
 
 ul {
 	list-style-type: none;
-	text align: center;
-	padding: 0 3em;
+	text align: right;
+	padding: 0 10em;
+}
+
+header {
+	background-image: url(../images/titan_background.jpg);
+	background-size: cover;
+	/*how to show entire image for the header?*/
 }
 
 h1 {
 	font-size: 60px;
 	text-transform: capitalize;
-	color: #32292F;
+	color: black;
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
+	padding: 3em;
 
 }
 h2 {
 	font-size: 30px;
 	color: #32292F;
-	padding-top: 20px;
-	padding-bottom:20px;
+	padding-top: 10px;
+	padding-bottom:10px;
 	text-align: center;
 	display: block;
 
@@ -92,7 +99,6 @@ footer {
 
 }
 #mainpage {
-	background: grey;
 	width: auto;
 	height: 4em;
 	padding-top: 4em;
@@ -102,16 +108,17 @@ footer {
 
 #blogArticles {
     max-width: autopx;
-    margin: 2em;
-    background: #48D1CC;
+    background: #57BC90;
+    color: white;
     padding: 2em;
+    width: 100%;
 }
 
 #rawLifestyle {
     max-width: auto;
     margin: 8em;
     padding: 4em;
-    background: #FDF5E6;
+    background: #B4DBC0;
     display: block;
     font-style: italic;
     
@@ -119,16 +126,17 @@ footer {
 
 
 #two_column {
-	background-color: #FDF5E6;
+	background-color: #015249;
 	border: 1px black solid;
 	padding: 20px;
+	width: 100%;
 }
 
 #credibility {
-	background-color: white;
+	background-color: #57BC90;
 	border: 3px black solid;
 	padding: 20px;
-	margin: 3em;
+	width: 100%;
 }
 
 #left {
@@ -145,4 +153,10 @@ footer {
 	padding: 20px;
 	float: right;
 	width: 62%;
+	color: black;
+}
+
+#contact_information {
+	padding: 2em;
+	
 }
